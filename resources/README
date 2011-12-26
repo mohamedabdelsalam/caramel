@@ -22,11 +22,9 @@ GCC
 
 - To get the latest version of gcc 4.6 which can handle @property and @synthesize:
 
-	svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-4-6
+	To get gcc 4.6, use Ubunut 11.10, which can be download from:
 
-- G++ Release selection & more [Archive] - Ubuntu Forums:
-
-	http://ubuntuforums.org/archive/index.php/t-1719940.html
+	http://www.ubuntu.com
 
 - GCC, the GNU Compiler Collection - GNU Project - Free Software Foundation (FSF):
 
