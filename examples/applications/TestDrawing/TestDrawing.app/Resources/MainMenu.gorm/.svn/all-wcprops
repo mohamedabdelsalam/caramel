@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/MainMenu.gorm
+END
+data.info
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/MainMenu.gorm/data.info
+END
+data.classes
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/MainMenu.gorm/data.classes
+END
+objects.gorm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/MainMenu.gorm/objects.gorm
+END

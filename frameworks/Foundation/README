@@ -1,0 +1,30 @@
+
+Foundation
+==========
+
+1. Install new packages:
+
+	$ sudo aptitude -y install libffcall1-dev libffcall1 libffi-dev libxml2-dev
+
+- Then config and build:
+
+	gnustep/core/base$ CC=gcc ./configure
+	gnustep/core/base$ make clean
+	gnustep/core/base$ make
+	gnustep/core/base$ sudo make install
+
+Errors handling
+---------------
+
+- If you get:
+
+	NSException.m: In function ‘+[NSException initialize]’:
+	NSException.m:813: error: ‘_objc_unexpected_exception’ undeclared (first use in this function)
+	NSException.m:813: error: (Each undeclared identifier is reported only once
+
+* Then do this change in base/configure file:
+
+	have_unexpected=no
+ 
+ 	if test $have_unexpected = yes; then
+

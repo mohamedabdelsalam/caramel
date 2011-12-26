@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=X-GNUstep;
+Name=CurrencyConverter
+Comment=A Little GNUstep GUI Demo
+Exec=/usr/bin/openapp CurrencyConverter
+FilePattern=CurrencyConverter.app;CurrencyConverter;

@@ -1,0 +1,18 @@
+
+CoreGraphics
+============
+
+
+1. First install the following packages
+
+	$ sudo aptitude -y install libx11-dev libxt-dev libxtst-dev libcairo2-dev liblcms1-dev
+
+2. Install Back framework:
+	gnustep/core/back$ make
+	gnustep/core/back$ sudo make install
+
+3. Install Opal framework (CoreGraphics and CoreText):
+
+	gnustep/dev-libs/opal/Source$ make
+	gnustep/dev-libs/opal/Source$ sudo make install
+

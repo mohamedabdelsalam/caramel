@@ -1,0 +1,24 @@
+{
+    ApplicationDescription = "Toolbar Example";
+    ApplicationIcon = "";
+    ApplicationName = ToolbarExample;
+    ApplicationRelease = 0.1;
+    Authors = (
+    	    "GNUstep Team",
+	    "Quentin Mathe"
+    );
+    Copyright = "Copyright (C) 2004-2009  GNUstep";
+    CopyrightDescription = "Released under GPLv2";
+    FullVersionID = 0.1;
+    NOTE = "Automatically generated!";
+    URL = "";
+    NSTypes = (
+    {
+       NSName = "txt";
+       NSHumanReadableName = "Texte brut";
+       NSUnixExtensions = (txt,TXT);
+       NSDOSExtensions = (txt);
+       NSRole = Viewer;
+       NSDocumentClass = DocumentOwner;
+    });
+}

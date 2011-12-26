@@ -1,0 +1,9 @@
+
+ApplicationServices
+===================
+
+- Install ApplicationServices framework, by running:
+
+	caramel/frameworks/ApplicationServices$ make
+	caramel/frameworks/ApplicationServices$ sudo make install
+

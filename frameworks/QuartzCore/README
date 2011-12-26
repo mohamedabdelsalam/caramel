@@ -1,0 +1,9 @@
+
+QuartzCore / CoreAnimation
+==========================
+
+- Install QuartzCore framework, by running:
+
+        gnustep/dev-libs/quartzcore$ make
+        gnustep/dev-libs/quartzcore$ sudo make install
+

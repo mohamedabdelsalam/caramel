@@ -1,0 +1,34 @@
+{
+    ApplicationDescription = "Toolbar Example";
+    ApplicationIcon = "";
+    ApplicationName = ToolbarExample;
+    ApplicationRelease = "0.1";
+    Authors = (
+	"GNUstep Team",
+	"Quentin Mathe"
+    );
+    Copyright = "Copyright (C) 2004-2009  GNUstep";
+    CopyrightDescription = "Released under GPLv2";
+    FullVersionID = "0.1";
+    GSMainMarkupFile = "";
+    NOTE = "Automatically generated!";
+    NSExecutable = ToolbarExample;
+    NSMainNibFile = ToolbarExample;
+    NSPrincipalClass = NSApplication;
+    NSTypes = (
+	{
+	    NSDOSExtensions = (
+		txt
+	    );
+	    NSDocumentClass = DocumentOwner;
+	    NSHumanReadableName = "Texte brut";
+	    NSName = txt;
+	    NSRole = Viewer;
+	    NSUnixExtensions = (
+		txt,
+		TXT
+	    );
+	}
+    );
+    URL = "";
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gnustep/!svn/ver/30638/tests/examples/trunk/gui/TestDrawing
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/main.m
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/GNUmakefile
+END
+Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/Controller.h
+END
+Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/Controller.m
+END
+TestDrawing-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/TestDrawing-Info.plist
+END

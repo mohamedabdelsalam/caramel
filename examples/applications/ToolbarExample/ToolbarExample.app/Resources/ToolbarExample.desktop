@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=X-GNUstep;
+Name=ToolbarExample
+Comment=Toolbar Example
+Exec=/usr/bin/openapp ToolbarExample
+FilePattern=ToolbarExample.app;ToolbarExample;
+MimeType=

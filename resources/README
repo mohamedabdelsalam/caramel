@@ -1,0 +1,34 @@
+
+Resources
+=========
+
+GNUstep
+-------
+
+- A GNUstep Programming Tutorial:
+
+	http://gnustep.made-it.com/GSPT/xml/Tutorial_en.html
+
+- GNUstep mini tutorials:
+
+	http://www.gnustep.it/nicola/Tutorials
+
+- More on GNUstep Makefiles:
+
+	http://www.gnustep.it/nicola/Tutorials/MoreOnMakefiles/MoreOnMakefiles.html
+
+GCC
+---
+
+- To get the latest version of gcc 4.6 which can handle @property and @synthesize:
+
+	svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-4-6
+
+- G++ Release selection & more [Archive] - Ubuntu Forums:
+
+	http://ubuntuforums.org/archive/index.php/t-1719940.html
+
+- GCC, the GNU Compiler Collection - GNU Project - Free Software Foundation (FSF):
+
+	http://gcc.gnu.org/
+

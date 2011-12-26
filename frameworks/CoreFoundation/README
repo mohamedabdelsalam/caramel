@@ -1,0 +1,14 @@
+
+CoreFoundation
+==============
+
+1. Install the following packages:
+
+        $ sudo aptitude -y install libicu-dev
+
+2. Then run:
+
+        gnustep/dev-libs/corebase$ make clean
+        gnustep/dev-libs/corebase$ make
+        gnustep/dev-libs/corebase$ sudo make install
+

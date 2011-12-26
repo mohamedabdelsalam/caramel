@@ -1,0 +1,28 @@
+
+UIKit examples
+==============
+
+1. Compile and Run BigApple example:
+
+	caramel/frameworks/UIKit/examples/BigApple$ make clean
+	caramel/frameworks/UIKit/examples/BigApple$ make
+
+Handling Errors
+===============
+
+- If you get:
+
+In file included from /usr/include/sys/param.h:28:
+/usr/include/linux/param.h:4:10: fatal error: 'asm/param.h' file not found
+#include <asm/param.h>
+
+* Then run:
+
+	$ locate param.h | grep asm
+
+/usr/include/i386-linux-gnu/asm/bootparam.h
+/usr/include/i386-linux-gnu/asm/param.h
+
+	$ cd /usr/local/include/
+	$ sudo ln -s /usr/include/i386-linux-gnu/asm/ asm
+

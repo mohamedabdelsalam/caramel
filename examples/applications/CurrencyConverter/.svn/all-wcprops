@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gnustep/!svn/ver/30545/tests/examples/trunk/gui/CurrencyConverter
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gnustep/!svn/ver/8295/tests/examples/trunk/gui/CurrencyConverter/GNUmakefile
+END
+CurrencyConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gnustep/!svn/ver/7188/tests/examples/trunk/gui/CurrencyConverter/CurrencyConverter.h
+END
+CurrencyConverterInfo.plist
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gnustep/!svn/ver/7188/tests/examples/trunk/gui/CurrencyConverter/CurrencyConverterInfo.plist
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gnustep/!svn/ver/5278/tests/examples/trunk/gui/CurrencyConverter/.cvsignore
+END
+CurrencyConverter.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gnustep/!svn/ver/30545/tests/examples/trunk/gui/CurrencyConverter/CurrencyConverter.m
+END

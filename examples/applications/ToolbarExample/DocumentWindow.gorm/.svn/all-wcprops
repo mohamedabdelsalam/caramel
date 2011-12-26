@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gnustep/!svn/ver/23191/tests/examples/trunk/gui/ToolbarExample/DocumentWindow.gorm
+END
+data.info
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gnustep/!svn/ver/23191/tests/examples/trunk/gui/ToolbarExample/DocumentWindow.gorm/data.info
+END
+data.classes
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gnustep/!svn/ver/23191/tests/examples/trunk/gui/ToolbarExample/DocumentWindow.gorm/data.classes
+END
+objects.gorm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gnustep/!svn/ver/23191/tests/examples/trunk/gui/ToolbarExample/DocumentWindow.gorm/objects.gorm
+END

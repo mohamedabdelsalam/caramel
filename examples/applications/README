@@ -1,0 +1,19 @@
+
+Applications
+============
+
+- Compile:
+
+	applications$ make clean
+	applications$ make
+
+- Run each application, for example Calculator application:
+
+	Calculator$ open Calculator.app
+
+-- If you get this error:
+
+	Couldn't get a file descriptor referring to the console
+
+-- Then run the app from the Nautilus file explorer.
+

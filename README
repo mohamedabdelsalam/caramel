@@ -1,0 +1,58 @@
+
+Caramel
+=======
+
+Caramel is an Open Source Mobile Operating System based on Objective-C frameworks, including GNUstep, Chameleon, and WebKit. 
+
+Installation
+------------
+
+1. Read:
+
+	resources/GNUstep-manual.pdf
+
+2. For information about gcc, objective-c, GNUstep, makefiles, check the URLs of this file:
+
+	resources/README
+
+3. The instructions in frameworks/README are based on Linux Ubuntu, to install Ubuntu:
+
+	http://www.ubuntu.com
+
+- To make vim as your default editor:
+
+	~$ sudo vim .bashrc
+
+- Add these lines at the end:
+
+	export EDITOR=vim
+	export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
+
+4. Install gnustep from Linux Ubuntu:
+
+        ~$ sudo aptitude -y install gnustep gnustep-devel
+
+- Check if it is installed properly:
+
+	~$ cd /usr/lib
+	/usr/lib$ ls -lh libgnu*
+
+- You should see:
+
+	-rw-r--r-- 1 root root 6.9M 2011-06-20 08:49 libgnustep-base.a
+	lrwxrwxrwx 1 root root   23 2011-06-20 08:49 libgnustep-base.so -> libgnustep-base.so.1.22
+	lrwxrwxrwx 1 root root   25 2011-06-20 08:49 libgnustep-base.so.1.22 -> libgnustep-base.so.1.22.0
+	-rw-r--r-- 1 root root 4.5M 2011-06-20 08:49 libgnustep-base.so.1.22.0
+	-rw-r--r-- 1 root root 7.4M 2011-08-29 05:47 libgnustep-gui.a
+	lrwxrwxrwx 1 root root   22 2011-08-29 05:46 libgnustep-gui.so -> libgnustep-gui.so.0.20
+	lrwxrwxrwx 1 root root   24 2011-08-29 05:46 libgnustep-gui.so.0.20 -> libgnustep-gui.so.0.20.0
+	-rw-r--r-- 1 root root 4.4M 2011-08-29 05:47 libgnustep-gui.so.0.20.0
+
+5. Compile and test caramel/examples. Follow instructions in:
+
+	examples/README
+
+6. Follow the step by step instructions for installation of GNUstep, Caramel, and Chameleon frameworks:
+
+	frameworks/README
+

@@ -1,0 +1,7 @@
+{
+  NOTE = "Automatically generated, do not edit!";
+  NSExecutable = "Search";
+  NSMainNibFile = "Search";
+  GSMainMarkupFile = "";
+  NSPrincipalClass = "NSApplication";
+}

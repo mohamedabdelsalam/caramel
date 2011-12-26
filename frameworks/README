@@ -1,0 +1,70 @@
+
+GNUstep
+=======
+
+In the following we give steps for installing latest versions of GNUstep frameworks, needed by Caramel system, from its source in gna.org repository:
+ 
+1. Move Ubuntu version of the gnustep libraries out of the /usr/lib, as we will install the latest version from the svn source.
+
+	/usr/lib$ sudo mkdir backup
+	/usr/lib$ sudo mv libgnustep* backup
+
+2. Get the source code of gnustep frameworks:
+
+	~/develop$ svn co http://svn.gna.org/svn/gnustep/modules gnustep
+
+- If resources/gnustep already exists then:
+
+	gnustep/core$ svn up
+	gnustep/dev-libs/corebase$ svn up
+	gnustep/dev-libs/opal$ svn up
+
+3. Install Foundation framework. Follow instructions in:
+
+	Foundation/README
+
+4. Install AppKit framework. Follow instructions in:
+
+	AppKit/README
+
+5. Install CoreFoundation framework. Follow instructions in:
+
+	CoreFoundation/README
+
+6. Install CoreGraphics and CoreText frameworks. Follow instructions in:
+
+	CoreGraphics/README
+
+7. Install QuartzCore (CoreAnimation) framework. Follow instructions in:
+
+	QuartzCore/README
+
+8. Check that frameworks are installed correctly:
+
+	/usr/local/lib$ ls -ltrh
+	/usr/local/include/GNUstep$ ls -ltrh
+
+Caramel
+=======
+
+- Install Camarel frameworks:
+
+1. Install ApplicationServices framework. Follow instructions in:
+
+	ApplicationServices/README
+
+2. Install UIKit framework. Follow instructions in:
+
+	UIKit/README
+
+3. Run examples of UIKit. Follow:
+
+	UIKit/examples/README
+
+Chameleon UIKit
+===============
+
+To get latest Chameleon UIKit source code:
+
+	~/develop/resources$ git clone git@github.com:BigZaphod/Chameleon.git Chameleon
+

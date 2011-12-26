@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gnustep/!svn/ver/30638/tests/examples/trunk/gui/TestDrawing/English.lproj
+END
+InfoPlist.strings
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/English.lproj/InfoPlist.strings
+END
+MainMenu.xib
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gnustep/!svn/ver/30638/tests/examples/trunk/gui/TestDrawing/English.lproj/MainMenu.xib
+END
+GNUstep.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gnustep/!svn/ver/30637/tests/examples/trunk/gui/TestDrawing/English.lproj/GNUstep.tiff
+END

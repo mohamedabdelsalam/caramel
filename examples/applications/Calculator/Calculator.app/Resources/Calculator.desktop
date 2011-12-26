@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=X-GNUstep;
+Name=Calculator
+Comment=A Little GNUstep GUI Demo
+Icon=/usr/local/lib/GNUstep/Applications/Calculator.app/Resources/Calculator.app.tiff
+Exec=/usr/bin/openapp Calculator
+FilePattern=Calculator.app;Calculator;
