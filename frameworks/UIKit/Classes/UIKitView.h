@@ -29,6 +29,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "UIApplicationDelegate.h"
+#import "NSView+UIKit.h"
 
 @class UIScreen, UIWindow;
 

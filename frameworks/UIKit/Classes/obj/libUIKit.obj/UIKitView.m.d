@@ -1,11 +1,12 @@
-obj/BigApple.obj/main.m.o: main.m \
+obj/libUIKit.obj/UIKitView.m.o: UIKitView.m UIKitView.h \
   /usr/local/include/GNUstep/Cocoa/Cocoa.h \
   /usr/local/include/GNUstep/Foundation/Foundation.h \
   /usr/local/include/GNUstep/GNUstepBase/GSVersionMacros.h \
   /usr/local/include/GNUstep/GNUstepBase/GSConfig.h \
+  /usr/local/include/GNUstep/objc/blocks_runtime.h \
+  /usr/local/include/GNUstep/objc/Availability.h \
   /usr/local/include/GNUstep/objc/objc.h \
   /usr/local/include/GNUstep/objc/runtime.h \
-  /usr/local/include/GNUstep/objc/Availability.h \
   /usr/local/include/GNUstep/objc/slot.h \
   /usr/local/include/GNUstep/objc/runtime-deprecated.h \
   /usr/local/include/GNUstep/Foundation/FoundationErrors.h \
@@ -286,7 +287,49 @@ obj/BigApple.obj/main.m.o: main.m \
   /usr/local/include/GNUstep/AppKit/NSViewController.h \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
-  /usr/local/include/GNUstep/AppKit/DPSOperators.h
+  /usr/local/include/GNUstep/AppKit/DPSOperators.h \
+  UIApplicationDelegate.h NSView+UIKit.h UIApplication+UIPrivate.h \
+  UIApplication.h UIResponder.h UIEvent.h UIDevice.h \
+  /usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGBase.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGAffineTransform.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGGeometry.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGBitmapContext.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGContext.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGColor.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGColorSpace.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGDataProvider.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPattern.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGFont.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGImage.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPath.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFDocument.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGDataConsumer.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFPage.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFDictionary.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFObject.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFArray.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFString.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFStream.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGGradient.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGShading.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGFunction.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGImageSource.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGImageDestination.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGLayer.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFContentStream.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFContext.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFOperatorTable.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h \
+  UIScreen+UIPrivate.h UIScreen.h \
+  /usr/local/include/GNUstep/ApplicationServices/ApplicationServices.h \
+  UIWindow+UIPrivate.h UIWindow.h UIView.h UIGeometry.h UIImage.h \
+  UIImageView.h UIColor.h \
+  /usr/local/include/GNUstep/QuartzCore/QuartzCore.h \
+  /usr/local/include/GNUstep/QuartzCore/CoreAnimation.h \
+  /usr/local/include/GNUstep/QuartzCore/CALayer.h NSTrackingArea.h
+
+UIKitView.h:
 
 /usr/local/include/GNUstep/Cocoa/Cocoa.h:
 
@@ -296,11 +339,13 @@ obj/BigApple.obj/main.m.o: main.m \
 
 /usr/local/include/GNUstep/GNUstepBase/GSConfig.h:
 
+/usr/local/include/GNUstep/objc/blocks_runtime.h:
+
+/usr/local/include/GNUstep/objc/Availability.h:
+
 /usr/local/include/GNUstep/objc/objc.h:
 
 /usr/local/include/GNUstep/objc/runtime.h:
-
-/usr/local/include/GNUstep/objc/Availability.h:
 
 /usr/local/include/GNUstep/objc/slot.h:
 
@@ -863,3 +908,107 @@ obj/BigApple.obj/main.m.o: main.m \
 /usr/local/include/GNUstep/AppKit/PSOperators.h:
 
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
+
+UIApplicationDelegate.h:
+
+NSView+UIKit.h:
+
+UIApplication+UIPrivate.h:
+
+UIApplication.h:
+
+UIResponder.h:
+
+UIEvent.h:
+
+UIDevice.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGBase.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGAffineTransform.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGGeometry.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGBitmapContext.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGContext.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGColor.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGColorSpace.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGDataProvider.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPattern.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGFont.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGImage.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPath.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFDocument.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGDataConsumer.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFPage.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFDictionary.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFObject.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFArray.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFString.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFStream.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGGradient.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGShading.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGFunction.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGImageSource.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGImageDestination.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGLayer.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFContentStream.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFContext.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFOperatorTable.h:
+
+/usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h:
+
+UIScreen+UIPrivate.h:
+
+UIScreen.h:
+
+/usr/local/include/GNUstep/ApplicationServices/ApplicationServices.h:
+
+UIWindow+UIPrivate.h:
+
+UIWindow.h:
+
+UIView.h:
+
+UIGeometry.h:
+
+UIImage.h:
+
+UIImageView.h:
+
+UIColor.h:
+
+/usr/local/include/GNUstep/QuartzCore/QuartzCore.h:
+
+/usr/local/include/GNUstep/QuartzCore/CoreAnimation.h:
+
+/usr/local/include/GNUstep/QuartzCore/CALayer.h:
+
+NSTrackingArea.h:

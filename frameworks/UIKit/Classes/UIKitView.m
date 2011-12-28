@@ -34,6 +34,8 @@
 #import "UIImage.h"
 #import "UIImageView.h"
 #import "UIColor.h"
+#import <QuartzCore/QuartzCore.h>
+#import "NSTrackingArea.h"
 
 @implementation UIKitView
 @synthesize UIScreen=_screen;
@@ -44,7 +46,7 @@
 
     [[self layer] insertSublayer:[_screen _layer] atIndex:0];
     [_screen _layer].frame = [self layer].bounds;
-    [_screen _layer].autoresizingMask = kCALayerWidthSizable | kCALayerHeightSizable;
+    //[_screen _layer].autoresizingMask = kCALayerWidthSizable | kCALayerHeightSizable;
 }
 
 - (id)initWithFrame:(NSRect)frame

@@ -30,6 +30,7 @@
 #import "UIResponder.h"
 #import "UIDevice.h"
 #import "UIApplicationDelegate.h"
+#import <CoreGraphics/CoreGraphics.h>
 
 extern NSString *const UIApplicationWillChangeStatusBarOrientationNotification;
 extern NSString *const UIApplicationDidChangeStatusBarOrientationNotification;
