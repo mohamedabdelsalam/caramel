@@ -6,7 +6,7 @@
 #   Author:  Amr Aboelela <amraboelela@gmail.com>
 #   Date: December 2011
 #
-#   This file is part of caramel.
+#   This file is part of UIKit.
 #
 #   This program is free software; you can redistribute it and/or modify
 #   it under the terms of the GNU Lesser General Public License as published by
@@ -33,6 +33,7 @@ GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
 include $(GNUSTEP_MAKEFILES)/common.make
 
 APP_NAME = BigApple
+ADDITIONAL_OBJCFLAGS += -fblocks
 BigApple_HEADERS = BigAppleAppDelegate.h ChameleonAppDelegate.h
 BigApple_OBJC_FILES = main.m BigAppleAppDelegate.m ChameleonAppDelegate.m
 #BigApple_RESOURCE_FILES = 

@@ -2,13 +2,24 @@
 Clang
 =====
 
-clang is a compiler to handle blocks and ObjectiveC 2.0
+Clang is a compiler to handle blocks and ObjectiveC 2.0
 
-to setup clang:
+1. Install clang:
 
         $ sudo aptitude -y install clang
 
+2. Configure clang:
+
+	/usr/share/GNUstep/Makefiles$ cp config.make config.make.gcc
+
 - edit /usr/share/GNUstep/Makefiles/config.make and comment CC = gcc and add CC = clang
+	
+	/usr/share/GNUstep/Makefiles$ cp config.make config.make.clang
+	/usr/share/GNUstep/Makefiles$ sudo chmod 777 config.make*
+	caramel/resources$ sudo cp use* /usr/bin
+	/usr/bin$ sudo chmod 777 use*
+
+3. Make link to objc directory:
 
         $ locate objc.h
 
@@ -17,6 +28,13 @@ to setup clang:
 - Then:
         /usr/local/include$ sudo ln -s /usr/lib/i386-linux-gnu/gcc/i686-linux-gnu/4.5/include/objc/ objc
 
+4. From now on, when you need to compile using clang then run:
+
+	$ useclang
+
+- And when you need to compile using gcc then run:
+
+	$ usegcc
 
 UIKit
 =====
@@ -25,7 +43,6 @@ UIKit
 
 	caramel/frameworks/UIKit$ make
 	caramel/frameworks/UIKit$ sudo make install
-
 
 Handling Errors
 ===============
@@ -45,13 +62,11 @@ fatal error: 'objc/blocks_runtime.h'
 	$ cd /usr/include/GNUstep/ObjectiveC2/
 	/usr/include/GNUstep/ObjectiveC2$ sudo cp blocks_runtime.h /usr/local/include/objc
 
-
 - If you get:
 
 /usr/local/include/objc/blocks_runtime.h:5:10: fatal error: 'ObjectiveC2/Availability.h' file not
       found
 #include "ObjectiveC2/Availability.h"
-
 
 * Then run:
 

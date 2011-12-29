@@ -288,9 +288,9 @@ obj/libUIKit.obj/UIKitView.m.o: UIKitView.m UIKitView.h \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
   /usr/local/include/GNUstep/AppKit/DPSOperators.h \
-  UIApplicationDelegate.h NSView+UIKit.h UIApplication+UIPrivate.h \
-  UIApplication.h UIResponder.h UIEvent.h UIDevice.h \
-  /usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h \
+  UIApplicationDelegate.h NSApplication+UIKit.h NSView+UIKit.h \
+  UIApplication+UIPrivate.h UIApplication.h UIResponder.h UIEvent.h \
+  UIDevice.h /usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h \
   /usr/local/include/GNUstep/CoreGraphics/CGBase.h \
   /usr/local/include/GNUstep/CoreGraphics/CGAffineTransform.h \
   /usr/local/include/GNUstep/CoreGraphics/CGGeometry.h \
@@ -910,6 +910,8 @@ UIKitView.h:
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
 
 UIApplicationDelegate.h:
+
+NSApplication+UIKit.h:
 
 NSView+UIKit.h:
 
