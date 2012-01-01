@@ -25,6 +25,7 @@ libUIKit_HEADER_FILES = \
 	UIImageView.h \
 	UIScrollView.h \
 	UITableView.h \
+	NSIndexPath+UITableView.h \
 	UITableViewCell.h \
 	UIFont.h \
 	UILabel.h \

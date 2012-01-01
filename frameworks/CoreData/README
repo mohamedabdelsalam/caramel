@@ -1,0 +1,10 @@
+
+CoreData
+========
+
+- Install CoreData framework, by running:
+
+        gnustep/dev-libs/gscoredata$ make clean
+        gnustep/dev-libs/gscoredata$ make
+        gnustep/dev-libs/gscoredata$ sudo make install
+

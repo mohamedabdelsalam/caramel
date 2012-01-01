@@ -39,7 +39,11 @@ In the following we give steps for installing latest versions of GNUstep framewo
 
 	QuartzCore/README
 
-8. Check that frameworks are installed correctly:
+8. Install CoreData framework. Follow instructions in:
+
+	CoreData/README
+
+9. Check that frameworks are installed correctly:
 
 	/usr/local/lib$ ls -ltrh
 	/usr/local/include/GNUstep$ ls -ltrh
