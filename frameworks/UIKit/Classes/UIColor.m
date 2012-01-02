@@ -32,6 +32,7 @@
 #import "UIGraphics.h"
 #import <AppKit/NSColor.h>
 #import <AppKit/NSColorSpace.h>
+#import <CoreImage/CoreImage.h>
 
 // callback for CreateImagePattern.
 static void drawPatternImage(void *info, CGContextRef ctx)

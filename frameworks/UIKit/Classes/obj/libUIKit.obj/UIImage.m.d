@@ -203,7 +203,7 @@ obj/libUIKit.obj/UIImage.m.o: UIImage.m UIImage+UIPrivate.h UIImage.h \
   /usr/local/include/GNUstep/AppKit/NSFont.h \
   /usr/local/include/GNUstep/AppKit/NSColor.h \
   /usr/local/include/GNUstep/AppKit/NSBitmapImageRep.h \
-  /usr/local/include/GNUstep/AppKit/NSImageRep.h
+  /usr/local/include/GNUstep/AppKit/NSImageRep.h NSImage+UIKit.h
 
 UIImage+UIPrivate.h:
 
@@ -624,3 +624,5 @@ UIPhotosAlbum.h:
 /usr/local/include/GNUstep/AppKit/NSBitmapImageRep.h:
 
 /usr/local/include/GNUstep/AppKit/NSImageRep.h:
+
+NSImage+UIKit.h:

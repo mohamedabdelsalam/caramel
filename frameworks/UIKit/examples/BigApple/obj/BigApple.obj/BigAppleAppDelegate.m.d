@@ -441,7 +441,20 @@ obj/BigApple.obj/BigAppleAppDelegate.m.o: BigAppleAppDelegate.m \
   /usr/local/include/GNUstep/UIKit/UINSCellControl.h \
   /usr/local/include/GNUstep/UIKit/CALayer+UIKitCompatibility.h \
   /usr/local/include/GNUstep/QuartzCore/CALayer.h \
-  /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h
+  /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h \
+  /usr/local/include/GNUstep/CoreData/CoreData.h \
+  /usr/local/include/GNUstep/CoreData/CoreDataErrors.h \
+  /usr/local/include/GNUstep/CoreData/NSAttributeDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSPropertyDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSEntityDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSFetchRequest.h \
+  /usr/local/include/GNUstep/CoreData/NSFetchedPropertyDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObject.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObjectContext.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObjectID.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObjectModel.h \
+  /usr/local/include/GNUstep/CoreData/NSPersistentStoreCoordinator.h \
+  /usr/local/include/GNUstep/CoreData/NSRelationshipDescription.h
 
 BigAppleAppDelegate.h:
 
@@ -1332,3 +1345,29 @@ ChameleonAppDelegate.h:
 /usr/local/include/GNUstep/QuartzCore/CALayer.h:
 
 /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h:
+
+/usr/local/include/GNUstep/CoreData/CoreData.h:
+
+/usr/local/include/GNUstep/CoreData/CoreDataErrors.h:
+
+/usr/local/include/GNUstep/CoreData/NSAttributeDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSPropertyDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSEntityDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSFetchRequest.h:
+
+/usr/local/include/GNUstep/CoreData/NSFetchedPropertyDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObject.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObjectContext.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObjectID.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObjectModel.h:
+
+/usr/local/include/GNUstep/CoreData/NSPersistentStoreCoordinator.h:
+
+/usr/local/include/GNUstep/CoreData/NSRelationshipDescription.h:

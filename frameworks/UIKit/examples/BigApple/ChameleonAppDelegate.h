@@ -29,6 +29,8 @@
 
 #import <UIKit/UIKit.h>
 
+//@class UIWindow, UIImageView, UIButton;
+
 @interface ChameleonAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     UIImageView *appleView;

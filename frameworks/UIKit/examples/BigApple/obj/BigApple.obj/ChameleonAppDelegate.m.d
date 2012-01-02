@@ -1,5 +1,6 @@
-obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
-  UIResponder.h UIEvent.h \
+obj/BigApple.obj/ChameleonAppDelegate.m.o: ChameleonAppDelegate.m \
+  ChameleonAppDelegate.h /usr/local/include/GNUstep/UIKit/UIKit.h \
+  /usr/local/include/GNUstep/UIKit/UIApplicationDelegate.h \
   /usr/local/include/GNUstep/Foundation/Foundation.h \
   /usr/local/include/GNUstep/GNUstepBase/GSVersionMacros.h \
   /usr/local/include/GNUstep/GNUstepBase/GSConfig.h \
@@ -140,7 +141,8 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/Foundation/NSXMLDTD.h \
   /usr/local/include/GNUstep/Foundation/NSXMLDTDNode.h \
   /usr/local/include/GNUstep/Foundation/NSXMLElement.h \
-  /usr/local/include/GNUstep/Foundation/NSXMLParser.h UIGeometry.h \
+  /usr/local/include/GNUstep/Foundation/NSXMLParser.h \
+  /usr/local/include/GNUstep/UIKit/UIScreen.h \
   /usr/local/include/GNUstep/ApplicationServices/ApplicationServices.h \
   /usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h \
   /usr/local/include/GNUstep/CoreGraphics/CGBase.h \
@@ -195,14 +197,99 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/CoreGraphics/CGPDFContentStream.h \
   /usr/local/include/GNUstep/CoreGraphics/CGPDFContext.h \
   /usr/local/include/GNUstep/CoreGraphics/CGPDFOperatorTable.h \
-  /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h UIWindow.h \
-  UIGraphics.h UIColor.h UIViewLayoutManager.h UIViewAnimationGroup.h \
-  UIViewBlockAnimationDelegate.h UIViewController.h UIApplication.h \
-  UIDevice.h UIApplicationDelegate.h UISearchDisplayController.h \
-  UITableView.h UIScrollView.h UITableViewCell.h \
-  NSIndexPath+UITableView.h UITabBarItem.h UIBarItem.h \
-  UIApplication+UIPrivate.h UIGestureRecognizer+UIPrivate.h \
-  UIGestureRecognizer.h /usr/local/include/GNUstep/QuartzCore/CALayer.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h \
+  /usr/local/include/GNUstep/UIKit/UIGeometry.h \
+  /usr/local/include/GNUstep/UIKit/UIGraphics.h \
+  /usr/local/include/GNUstep/UIKit/UIEvent.h \
+  /usr/local/include/GNUstep/UIKit/UIResponder.h \
+  /usr/local/include/GNUstep/UIKit/UIImage.h \
+  /usr/local/include/GNUstep/UIKit/UIColor.h \
+  /usr/local/include/GNUstep/UIKit/UIView.h \
+  /usr/local/include/GNUstep/UIKit/UIWindow.h \
+  /usr/local/include/GNUstep/UIKit/UITouch.h \
+  /usr/local/include/GNUstep/UIKit/UIApplication.h \
+  /usr/local/include/GNUstep/UIKit/UIDevice.h \
+  /usr/local/include/GNUstep/UIKit/UIInterface.h \
+  /usr/local/include/GNUstep/UIKit/UIFont.h \
+  /usr/local/include/GNUstep/CoreText/CoreText.h \
+  /usr/local/include/GNUstep/CoreText/CTFont.h \
+  /usr/local/include/GNUstep/CoreText/CTFontDescriptor.h \
+  /usr/local/include/GNUstep/CoreText/CTFontTraits.h \
+  /usr/local/include/GNUstep/CoreText/CTFontCollection.h \
+  /usr/local/include/GNUstep/CoreText/CTFontManager.h \
+  /usr/local/include/GNUstep/CoreText/CTFontManagerErrors.h \
+  /usr/local/include/GNUstep/CoreText/CTFrame.h \
+  /usr/local/include/GNUstep/CoreText/CTLine.h \
+  /usr/local/include/GNUstep/CoreText/CTRun.h \
+  /usr/local/include/GNUstep/CoreText/CTFramesetter.h \
+  /usr/local/include/GNUstep/CoreText/CTTypesetter.h \
+  /usr/local/include/GNUstep/CoreText/CTGlyphInfo.h \
+  /usr/local/include/GNUstep/CoreText/CTParagraphStyle.h \
+  /usr/local/include/GNUstep/CoreText/CTStringAttributes.h \
+  /usr/local/include/GNUstep/CoreText/CTTextTab.h \
+  /usr/local/include/GNUstep/UIKit/UIImageView.h \
+  /usr/local/include/GNUstep/UIKit/UIScrollView.h \
+  /usr/local/include/GNUstep/UIKit/UITableView.h \
+  /usr/local/include/GNUstep/UIKit/UITableViewCell.h \
+  /usr/local/include/GNUstep/UIKit/NSIndexPath+UITableView.h \
+  /usr/local/include/GNUstep/UIKit/UILabel.h \
+  /usr/local/include/GNUstep/UIKit/UIStringDrawing.h \
+  /usr/local/include/GNUstep/UIKit/UIAccessibility.h \
+  /usr/local/include/GNUstep/UIKit/UIAccessibilityElement.h \
+  /usr/local/include/GNUstep/UIKit/UIControl.h \
+  /usr/local/include/GNUstep/UIKit/UIButton.h \
+  /usr/local/include/GNUstep/UIKit/UIBezierPath.h \
+  /usr/local/include/GNUstep/UIKit/UIViewController.h \
+  /usr/local/include/GNUstep/UIKit/UISearchDisplayController.h \
+  /usr/local/include/GNUstep/UIKit/UITabBarItem.h \
+  /usr/local/include/GNUstep/UIKit/UIBarItem.h \
+  /usr/local/include/GNUstep/UIKit/UIScreenMode.h \
+  /usr/local/include/GNUstep/UIKit/UIActionSheet.h \
+  /usr/local/include/GNUstep/UIKit/UIAlertView.h \
+  /usr/local/include/GNUstep/UIKit/UITextField.h \
+  /usr/local/include/GNUstep/UIKit/UITextInputTraits.h \
+  /usr/local/include/GNUstep/UIKit/UINavigationItem.h \
+  /usr/local/include/GNUstep/UIKit/UINavigationController.h \
+  /usr/local/include/GNUstep/UIKit/UIBarButtonItem.h \
+  /usr/local/include/GNUstep/UIKit/UIPasteboard.h \
+  /usr/local/include/GNUstep/UIKit/UIWebView.h \
+  /usr/local/include/GNUstep/UIKit/UIDataDetectors.h \
+  /usr/local/include/GNUstep/UIKit/UIToolbar.h \
+  /usr/local/include/GNUstep/UIKit/UITabBar.h \
+  /usr/local/include/GNUstep/UIKit/UISegmentedControl.h \
+  /usr/local/include/GNUstep/UIKit/UIActivityIndicatorView.h \
+  /usr/local/include/GNUstep/UIKit/UIPopoverController.h \
+  /usr/local/include/GNUstep/UIKit/UINavigationBar.h \
+  /usr/local/include/GNUstep/UIKit/UITextView.h \
+  /usr/local/include/GNUstep/UIKit/UITableViewController.h \
+  /usr/local/include/GNUstep/UIKit/UISearchBar.h \
+  /usr/local/include/GNUstep/UIKit/UIImagePickerController.h \
+  /usr/local/include/GNUstep/UIKit/UINibLoading.h \
+  /usr/local/include/GNUstep/UIKit/UIGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UITapGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UILongPressGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UISplitViewController.h \
+  /usr/local/include/GNUstep/UIKit/UITabBarController.h \
+  /usr/local/include/GNUstep/UIKit/UISwitch.h \
+  /usr/local/include/GNUstep/UIKit/UISlider.h \
+  /usr/local/include/GNUstep/UIKit/UIAcceleration.h \
+  /usr/local/include/GNUstep/UIKit/UIAccelerometer.h \
+  /usr/local/include/GNUstep/UIKit/UIMenuController.h \
+  /usr/local/include/GNUstep/UIKit/UIMenuItem.h \
+  /usr/local/include/GNUstep/UIKit/UIViewAdapter.h \
+  /usr/local/include/GNUstep/UIKit/UIPageControl.h \
+  /usr/local/include/GNUstep/UIKit/UIProgressView.h \
+  /usr/local/include/GNUstep/UIKit/UIPickerView.h \
+  /usr/local/include/GNUstep/UIKit/UIPanGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UIPinchGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UIRotationGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UISwipeGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UIDatePicker.h \
+  /usr/local/include/GNUstep/UIKit/UIKey.h \
+  /usr/local/include/GNUstep/UIKit/UIScrollWheelGestureRecognizer.h \
+  /usr/local/include/GNUstep/UIKit/UINSCellControl.h \
+  /usr/local/include/GNUstep/UIKit/CALayer+UIKitCompatibility.h \
+  /usr/local/include/GNUstep/QuartzCore/CALayer.h \
   /usr/local/include/GNUstep/AppKit/AppKit.h \
   /usr/local/include/GNUstep/GNUstepGUI/GSVersion.h \
   /usr/local/include/GNUstep/AppKit/NSGraphics.h \
@@ -350,16 +437,26 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
   /usr/local/include/GNUstep/AppKit/DPSOperators.h \
-  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
-  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h
+  /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h \
+  /usr/local/include/GNUstep/CoreData/CoreData.h \
+  /usr/local/include/GNUstep/CoreData/CoreDataErrors.h \
+  /usr/local/include/GNUstep/CoreData/NSAttributeDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSPropertyDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSEntityDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSFetchRequest.h \
+  /usr/local/include/GNUstep/CoreData/NSFetchedPropertyDescription.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObject.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObjectContext.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObjectID.h \
+  /usr/local/include/GNUstep/CoreData/NSManagedObjectModel.h \
+  /usr/local/include/GNUstep/CoreData/NSPersistentStoreCoordinator.h \
+  /usr/local/include/GNUstep/CoreData/NSRelationshipDescription.h
 
-UIView+UIPrivate.h:
+ChameleonAppDelegate.h:
 
-UIView.h:
+/usr/local/include/GNUstep/UIKit/UIKit.h:
 
-UIResponder.h:
-
-UIEvent.h:
+/usr/local/include/GNUstep/UIKit/UIApplicationDelegate.h:
 
 /usr/local/include/GNUstep/Foundation/Foundation.h:
 
@@ -643,7 +740,7 @@ UIEvent.h:
 
 /usr/local/include/GNUstep/Foundation/NSXMLParser.h:
 
-UIGeometry.h:
+/usr/local/include/GNUstep/UIKit/UIScreen.h:
 
 /usr/local/include/GNUstep/ApplicationServices/ApplicationServices.h:
 
@@ -755,45 +852,187 @@ UIGeometry.h:
 
 /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h:
 
-UIWindow.h:
+/usr/local/include/GNUstep/UIKit/UIGeometry.h:
 
-UIGraphics.h:
+/usr/local/include/GNUstep/UIKit/UIGraphics.h:
 
-UIColor.h:
+/usr/local/include/GNUstep/UIKit/UIEvent.h:
 
-UIViewLayoutManager.h:
+/usr/local/include/GNUstep/UIKit/UIResponder.h:
 
-UIViewAnimationGroup.h:
+/usr/local/include/GNUstep/UIKit/UIImage.h:
 
-UIViewBlockAnimationDelegate.h:
+/usr/local/include/GNUstep/UIKit/UIColor.h:
 
-UIViewController.h:
+/usr/local/include/GNUstep/UIKit/UIView.h:
 
-UIApplication.h:
+/usr/local/include/GNUstep/UIKit/UIWindow.h:
 
-UIDevice.h:
+/usr/local/include/GNUstep/UIKit/UITouch.h:
 
-UIApplicationDelegate.h:
+/usr/local/include/GNUstep/UIKit/UIApplication.h:
 
-UISearchDisplayController.h:
+/usr/local/include/GNUstep/UIKit/UIDevice.h:
 
-UITableView.h:
+/usr/local/include/GNUstep/UIKit/UIInterface.h:
 
-UIScrollView.h:
+/usr/local/include/GNUstep/UIKit/UIFont.h:
 
-UITableViewCell.h:
+/usr/local/include/GNUstep/CoreText/CoreText.h:
 
-NSIndexPath+UITableView.h:
+/usr/local/include/GNUstep/CoreText/CTFont.h:
 
-UITabBarItem.h:
+/usr/local/include/GNUstep/CoreText/CTFontDescriptor.h:
 
-UIBarItem.h:
+/usr/local/include/GNUstep/CoreText/CTFontTraits.h:
 
-UIApplication+UIPrivate.h:
+/usr/local/include/GNUstep/CoreText/CTFontCollection.h:
 
-UIGestureRecognizer+UIPrivate.h:
+/usr/local/include/GNUstep/CoreText/CTFontManager.h:
 
-UIGestureRecognizer.h:
+/usr/local/include/GNUstep/CoreText/CTFontManagerErrors.h:
+
+/usr/local/include/GNUstep/CoreText/CTFrame.h:
+
+/usr/local/include/GNUstep/CoreText/CTLine.h:
+
+/usr/local/include/GNUstep/CoreText/CTRun.h:
+
+/usr/local/include/GNUstep/CoreText/CTFramesetter.h:
+
+/usr/local/include/GNUstep/CoreText/CTTypesetter.h:
+
+/usr/local/include/GNUstep/CoreText/CTGlyphInfo.h:
+
+/usr/local/include/GNUstep/CoreText/CTParagraphStyle.h:
+
+/usr/local/include/GNUstep/CoreText/CTStringAttributes.h:
+
+/usr/local/include/GNUstep/CoreText/CTTextTab.h:
+
+/usr/local/include/GNUstep/UIKit/UIImageView.h:
+
+/usr/local/include/GNUstep/UIKit/UIScrollView.h:
+
+/usr/local/include/GNUstep/UIKit/UITableView.h:
+
+/usr/local/include/GNUstep/UIKit/UITableViewCell.h:
+
+/usr/local/include/GNUstep/UIKit/NSIndexPath+UITableView.h:
+
+/usr/local/include/GNUstep/UIKit/UILabel.h:
+
+/usr/local/include/GNUstep/UIKit/UIStringDrawing.h:
+
+/usr/local/include/GNUstep/UIKit/UIAccessibility.h:
+
+/usr/local/include/GNUstep/UIKit/UIAccessibilityElement.h:
+
+/usr/local/include/GNUstep/UIKit/UIControl.h:
+
+/usr/local/include/GNUstep/UIKit/UIButton.h:
+
+/usr/local/include/GNUstep/UIKit/UIBezierPath.h:
+
+/usr/local/include/GNUstep/UIKit/UIViewController.h:
+
+/usr/local/include/GNUstep/UIKit/UISearchDisplayController.h:
+
+/usr/local/include/GNUstep/UIKit/UITabBarItem.h:
+
+/usr/local/include/GNUstep/UIKit/UIBarItem.h:
+
+/usr/local/include/GNUstep/UIKit/UIScreenMode.h:
+
+/usr/local/include/GNUstep/UIKit/UIActionSheet.h:
+
+/usr/local/include/GNUstep/UIKit/UIAlertView.h:
+
+/usr/local/include/GNUstep/UIKit/UITextField.h:
+
+/usr/local/include/GNUstep/UIKit/UITextInputTraits.h:
+
+/usr/local/include/GNUstep/UIKit/UINavigationItem.h:
+
+/usr/local/include/GNUstep/UIKit/UINavigationController.h:
+
+/usr/local/include/GNUstep/UIKit/UIBarButtonItem.h:
+
+/usr/local/include/GNUstep/UIKit/UIPasteboard.h:
+
+/usr/local/include/GNUstep/UIKit/UIWebView.h:
+
+/usr/local/include/GNUstep/UIKit/UIDataDetectors.h:
+
+/usr/local/include/GNUstep/UIKit/UIToolbar.h:
+
+/usr/local/include/GNUstep/UIKit/UITabBar.h:
+
+/usr/local/include/GNUstep/UIKit/UISegmentedControl.h:
+
+/usr/local/include/GNUstep/UIKit/UIActivityIndicatorView.h:
+
+/usr/local/include/GNUstep/UIKit/UIPopoverController.h:
+
+/usr/local/include/GNUstep/UIKit/UINavigationBar.h:
+
+/usr/local/include/GNUstep/UIKit/UITextView.h:
+
+/usr/local/include/GNUstep/UIKit/UITableViewController.h:
+
+/usr/local/include/GNUstep/UIKit/UISearchBar.h:
+
+/usr/local/include/GNUstep/UIKit/UIImagePickerController.h:
+
+/usr/local/include/GNUstep/UIKit/UINibLoading.h:
+
+/usr/local/include/GNUstep/UIKit/UIGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UITapGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UILongPressGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UISplitViewController.h:
+
+/usr/local/include/GNUstep/UIKit/UITabBarController.h:
+
+/usr/local/include/GNUstep/UIKit/UISwitch.h:
+
+/usr/local/include/GNUstep/UIKit/UISlider.h:
+
+/usr/local/include/GNUstep/UIKit/UIAcceleration.h:
+
+/usr/local/include/GNUstep/UIKit/UIAccelerometer.h:
+
+/usr/local/include/GNUstep/UIKit/UIMenuController.h:
+
+/usr/local/include/GNUstep/UIKit/UIMenuItem.h:
+
+/usr/local/include/GNUstep/UIKit/UIViewAdapter.h:
+
+/usr/local/include/GNUstep/UIKit/UIPageControl.h:
+
+/usr/local/include/GNUstep/UIKit/UIProgressView.h:
+
+/usr/local/include/GNUstep/UIKit/UIPickerView.h:
+
+/usr/local/include/GNUstep/UIKit/UIPanGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UIPinchGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UIRotationGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UISwipeGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UIDatePicker.h:
+
+/usr/local/include/GNUstep/UIKit/UIKey.h:
+
+/usr/local/include/GNUstep/UIKit/UIScrollWheelGestureRecognizer.h:
+
+/usr/local/include/GNUstep/UIKit/UINSCellControl.h:
+
+/usr/local/include/GNUstep/UIKit/CALayer+UIKitCompatibility.h:
 
 /usr/local/include/GNUstep/QuartzCore/CALayer.h:
 
@@ -1091,6 +1330,30 @@ UIGestureRecognizer.h:
 
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
 
-/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
+/usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h:
 
-/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
+/usr/local/include/GNUstep/CoreData/CoreData.h:
+
+/usr/local/include/GNUstep/CoreData/CoreDataErrors.h:
+
+/usr/local/include/GNUstep/CoreData/NSAttributeDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSPropertyDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSEntityDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSFetchRequest.h:
+
+/usr/local/include/GNUstep/CoreData/NSFetchedPropertyDescription.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObject.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObjectContext.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObjectID.h:
+
+/usr/local/include/GNUstep/CoreData/NSManagedObjectModel.h:
+
+/usr/local/include/GNUstep/CoreData/NSPersistentStoreCoordinator.h:
+
+/usr/local/include/GNUstep/CoreData/NSRelationshipDescription.h:

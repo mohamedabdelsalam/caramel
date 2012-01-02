@@ -207,6 +207,7 @@ obj/libUIKit.obj/UIWindow.m.o: UIWindow.m UIWindow+UIPrivate.h UIWindow.h \
   /usr/local/include/GNUstep/AppKit/NSCursor.h \
   /usr/local/include/GNUstep/QuartzCore/QuartzCore.h \
   /usr/local/include/GNUstep/QuartzCore/CoreAnimation.h \
+  /usr/local/include/GNUstep/QuartzCore/CABase.h \
   /usr/local/include/GNUstep/QuartzCore/CALayer.h \
   /usr/local/include/GNUstep/AppKit/AppKit.h \
   /usr/local/include/GNUstep/GNUstepGUI/GSVersion.h \
@@ -353,7 +354,9 @@ obj/libUIKit.obj/UIWindow.m.o: UIWindow.m UIWindow+UIPrivate.h UIWindow.h \
   /usr/local/include/GNUstep/AppKit/NSViewController.h \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
-  /usr/local/include/GNUstep/AppKit/DPSOperators.h
+  /usr/local/include/GNUstep/AppKit/DPSOperators.h \
+  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
+  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h
 
 UIWindow+UIPrivate.h:
 
@@ -811,6 +814,8 @@ UIGestureRecognizer+UIPrivate.h:
 
 /usr/local/include/GNUstep/QuartzCore/CoreAnimation.h:
 
+/usr/local/include/GNUstep/QuartzCore/CABase.h:
+
 /usr/local/include/GNUstep/QuartzCore/CALayer.h:
 
 /usr/local/include/GNUstep/AppKit/AppKit.h:
@@ -1104,3 +1109,7 @@ UIGestureRecognizer+UIPrivate.h:
 /usr/local/include/GNUstep/AppKit/PSOperators.h:
 
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
+
+/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
+
+/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:

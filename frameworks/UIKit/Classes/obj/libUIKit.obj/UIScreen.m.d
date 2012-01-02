@@ -1,5 +1,4 @@
-obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
-  UIResponder.h UIEvent.h \
+obj/libUIKit.obj/UIScreen.m.o: UIScreen.m UIScreen.h \
   /usr/local/include/GNUstep/Foundation/Foundation.h \
   /usr/local/include/GNUstep/GNUstepBase/GSVersionMacros.h \
   /usr/local/include/GNUstep/GNUstepBase/GSConfig.h \
@@ -140,7 +139,7 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/Foundation/NSXMLDTD.h \
   /usr/local/include/GNUstep/Foundation/NSXMLDTDNode.h \
   /usr/local/include/GNUstep/Foundation/NSXMLElement.h \
-  /usr/local/include/GNUstep/Foundation/NSXMLParser.h UIGeometry.h \
+  /usr/local/include/GNUstep/Foundation/NSXMLParser.h \
   /usr/local/include/GNUstep/ApplicationServices/ApplicationServices.h \
   /usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h \
   /usr/local/include/GNUstep/CoreGraphics/CGBase.h \
@@ -195,14 +194,14 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/CoreGraphics/CGPDFContentStream.h \
   /usr/local/include/GNUstep/CoreGraphics/CGPDFContext.h \
   /usr/local/include/GNUstep/CoreGraphics/CGPDFOperatorTable.h \
-  /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h UIWindow.h \
-  UIGraphics.h UIColor.h UIViewLayoutManager.h UIViewAnimationGroup.h \
-  UIViewBlockAnimationDelegate.h UIViewController.h UIApplication.h \
-  UIDevice.h UIApplicationDelegate.h UISearchDisplayController.h \
-  UITableView.h UIScrollView.h UITableViewCell.h \
-  NSIndexPath+UITableView.h UITabBarItem.h UIBarItem.h \
-  UIApplication+UIPrivate.h UIGestureRecognizer+UIPrivate.h \
-  UIGestureRecognizer.h /usr/local/include/GNUstep/QuartzCore/CALayer.h \
+  /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h \
+  UIScreenAppKitIntegration.h UIImage+UIPrivate.h UIImage.h \
+  UIImageView.h UIView.h UIResponder.h UIEvent.h UIGeometry.h \
+  UIApplication.h UIDevice.h UIApplicationDelegate.h \
+  /usr/local/include/GNUstep/QuartzCore/QuartzCore.h \
+  /usr/local/include/GNUstep/QuartzCore/CoreAnimation.h \
+  /usr/local/include/GNUstep/QuartzCore/CABase.h \
+  /usr/local/include/GNUstep/QuartzCore/CALayer.h \
   /usr/local/include/GNUstep/AppKit/AppKit.h \
   /usr/local/include/GNUstep/GNUstepGUI/GSVersion.h \
   /usr/local/include/GNUstep/AppKit/NSGraphics.h \
@@ -351,15 +350,13 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
   /usr/local/include/GNUstep/AppKit/DPSOperators.h \
   /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
-  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h
+  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h \
+  UIViewLayoutManager.h UIColor.h UIScreenMode+UIPrivate.h \
+  UIScreenMode.h UIWindow.h UIKitView.h \
+  /usr/local/include/GNUstep/Cocoa/Cocoa.h NSApplication+UIKit.h \
+  NSView+UIKit.h
 
-UIView+UIPrivate.h:
-
-UIView.h:
-
-UIResponder.h:
-
-UIEvent.h:
+UIScreen.h:
 
 /usr/local/include/GNUstep/Foundation/Foundation.h:
 
@@ -643,8 +640,6 @@ UIEvent.h:
 
 /usr/local/include/GNUstep/Foundation/NSXMLParser.h:
 
-UIGeometry.h:
-
 /usr/local/include/GNUstep/ApplicationServices/ApplicationServices.h:
 
 /usr/local/include/GNUstep/CoreGraphics/CoreGraphics.h:
@@ -755,19 +750,21 @@ UIGeometry.h:
 
 /usr/local/include/GNUstep/CoreGraphics/CGPDFScanner.h:
 
-UIWindow.h:
+UIScreenAppKitIntegration.h:
 
-UIGraphics.h:
+UIImage+UIPrivate.h:
 
-UIColor.h:
+UIImage.h:
 
-UIViewLayoutManager.h:
+UIImageView.h:
 
-UIViewAnimationGroup.h:
+UIView.h:
 
-UIViewBlockAnimationDelegate.h:
+UIResponder.h:
 
-UIViewController.h:
+UIEvent.h:
+
+UIGeometry.h:
 
 UIApplication.h:
 
@@ -775,25 +772,11 @@ UIDevice.h:
 
 UIApplicationDelegate.h:
 
-UISearchDisplayController.h:
+/usr/local/include/GNUstep/QuartzCore/QuartzCore.h:
 
-UITableView.h:
+/usr/local/include/GNUstep/QuartzCore/CoreAnimation.h:
 
-UIScrollView.h:
-
-UITableViewCell.h:
-
-NSIndexPath+UITableView.h:
-
-UITabBarItem.h:
-
-UIBarItem.h:
-
-UIApplication+UIPrivate.h:
-
-UIGestureRecognizer+UIPrivate.h:
-
-UIGestureRecognizer.h:
+/usr/local/include/GNUstep/QuartzCore/CABase.h:
 
 /usr/local/include/GNUstep/QuartzCore/CALayer.h:
 
@@ -1094,3 +1077,21 @@ UIGestureRecognizer.h:
 /usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
 
 /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
+
+UIViewLayoutManager.h:
+
+UIColor.h:
+
+UIScreenMode+UIPrivate.h:
+
+UIScreenMode.h:
+
+UIWindow.h:
+
+UIKitView.h:
+
+/usr/local/include/GNUstep/Cocoa/Cocoa.h:
+
+NSApplication+UIKit.h:
+
+NSView+UIKit.h:

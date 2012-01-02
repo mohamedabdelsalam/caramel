@@ -29,11 +29,12 @@ ifeq ($(GNUSTEP_MAKEFILES),)
   endif
 endif
 
-GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
 include $(GNUSTEP_MAKEFILES)/common.make
 
 APP_NAME = BigApple
 ADDITIONAL_OBJCFLAGS += -fblocks
+#ADDITIONAL_LIB_DIRS = -L/usr/local/lib
+ADDITIONAL_OBJC_LIBS = -lUIKit
 BigApple_HEADERS = BigAppleAppDelegate.h ChameleonAppDelegate.h
 BigApple_OBJC_FILES = main.m BigAppleAppDelegate.m ChameleonAppDelegate.m
 #BigApple_RESOURCE_FILES = 

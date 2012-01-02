@@ -33,6 +33,7 @@
 #import "UIGraphics.h"
 #import "UIPhotosAlbum.h"
 #import <AppKit/NSImage.h>
+#import "NSImage+UIKit.h"
 
 @implementation UIImage
 

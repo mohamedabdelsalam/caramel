@@ -1,6 +1,6 @@
 
 /* 
-   NSView+UIKit.h
+   NSImage+UIKit.m
 
    Copyright (C) 2012 Free Software Foundation, Inc.
 
@@ -25,17 +25,4 @@
    Free Software Foundation, 51 Franklin Street, Fifth Floor,
    Boston, MA 02110-1301, USA.
 */
-
-@class CALayer, NSTrackingArea;
-
-@interface NSView (UIKit)
-
-@property (nonatomic, retain, readonly) CALayer *layer;
-
-- (void)setWantsLayer:(BOOL)flag;
-- (void)addTrackingArea:(NSTrackingArea *)trackingArea;
-- (void)updateTrackingAreas;
-- (void)removeTrackingArea:(NSTrackingArea *)trackingArea;
-
-@end
 

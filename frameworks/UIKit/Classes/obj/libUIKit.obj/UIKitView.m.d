@@ -350,7 +350,10 @@ obj/libUIKit.obj/UIKitView.m.o: UIKitView.m UIKitView.h \
   UIImageView.h UIColor.h \
   /usr/local/include/GNUstep/QuartzCore/QuartzCore.h \
   /usr/local/include/GNUstep/QuartzCore/CoreAnimation.h \
-  /usr/local/include/GNUstep/QuartzCore/CALayer.h NSTrackingArea.h
+  /usr/local/include/GNUstep/QuartzCore/CABase.h \
+  /usr/local/include/GNUstep/QuartzCore/CALayer.h \
+  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
+  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h NSTrackingArea.h
 
 UIKitView.h:
 
@@ -1080,6 +1083,12 @@ UIColor.h:
 
 /usr/local/include/GNUstep/QuartzCore/CoreAnimation.h:
 
+/usr/local/include/GNUstep/QuartzCore/CABase.h:
+
 /usr/local/include/GNUstep/QuartzCore/CALayer.h:
+
+/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
+
+/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
 
 NSTrackingArea.h:

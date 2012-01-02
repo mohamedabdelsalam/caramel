@@ -1,13 +1,13 @@
 
 /* 
-   NSView+UIKit.h
+   NSImage+UIKit.h
 
    Copyright (C) 2012 Free Software Foundation, Inc.
 
    Author: Amr Aboelela <amraboelela@gmail.com>
    Date: January 2012
 
-   This file is part of UIKit.
+   This file is part of QuartzCore.
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Lesser General Public
@@ -26,16 +26,10 @@
    Boston, MA 02110-1301, USA.
 */
 
-@class CALayer, NSTrackingArea;
+@interface NSImage (UIKit)
 
-@interface NSView (UIKit)
-
-@property (nonatomic, retain, readonly) CALayer *layer;
-
-- (void)setWantsLayer:(BOOL)flag;
-- (void)addTrackingArea:(NSTrackingArea *)trackingArea;
-- (void)updateTrackingAreas;
-- (void)removeTrackingArea:(NSTrackingArea *)trackingArea;
+- (id)initWithCGImage:(CGImageRef)cgImage size:(NSSize)size;
+- (CGImageRef)CGImageForProposedRect:(NSRect *)proposedDestRect context:(NSGraphicsContext *)referenceContext hints:(NSDictionary *)hints;
 
 @end
 
