@@ -1,0 +1,10 @@
+
+CoreImage
+=========
+
+- Install CoreImage framework, by running:
+
+        gnustep/dev-libs/coreimage$ make clean
+        gnustep/dev-libs/coreimage$ make
+        gnustep/dev-libs/coreimage$ sudo make install
+

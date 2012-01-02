@@ -35,15 +35,19 @@ In the following we give steps for installing latest versions of GNUstep framewo
 
 	CoreGraphics/README
 
-7. Install QuartzCore (CoreAnimation) framework. Follow instructions in:
+7. Install CoreImage framework. Follow instructions in:
+
+	CoreImage/README
+
+8. Install QuartzCore (CoreAnimation) framework. Follow instructions in:
 
 	QuartzCore/README
 
-8. Install CoreData framework. Follow instructions in:
+9. Install CoreData framework. Follow instructions in:
 
 	CoreData/README
 
-9. Check that frameworks are installed correctly:
+10. Check that frameworks are installed correctly:
 
 	/usr/local/lib$ ls -ltrh
 	/usr/local/include/GNUstep$ ls -ltrh
