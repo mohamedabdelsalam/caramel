@@ -4,18 +4,10 @@ obj/BigApple.obj/ChameleonAppDelegate.m.o: ChameleonAppDelegate.m \
   /usr/local/include/GNUstep/Foundation/Foundation.h \
   /usr/local/include/GNUstep/GNUstepBase/GSVersionMacros.h \
   /usr/local/include/GNUstep/GNUstepBase/GSConfig.h \
-  /usr/local/include/GNUstep/objc/blocks_runtime.h \
-  /usr/local/include/GNUstep/objc/Availability.h \
-  /usr/local/include/GNUstep/objc/objc.h \
-  /usr/local/include/GNUstep/objc/runtime.h \
-  /usr/local/include/GNUstep/objc/slot.h \
-  /usr/local/include/GNUstep/objc/runtime-deprecated.h \
   /usr/local/include/GNUstep/Foundation/FoundationErrors.h \
   /usr/local/include/GNUstep/Foundation/NSObject.h \
   /usr/local/include/GNUstep/Foundation/NSObjCRuntime.h \
   /usr/local/include/GNUstep/GNUstepBase/GSObjCRuntime.h \
-  /usr/local/include/GNUstep/objc/objc-api.h \
-  /usr/local/include/GNUstep/objc/encoding.h \
   /usr/local/include/GNUstep/Foundation/NSZone.h \
   /usr/local/include/GNUstep/GNUstepBase/GNUstep.h \
   /usr/local/include/GNUstep/Foundation/NSDate.h \
@@ -148,27 +140,35 @@ obj/BigApple.obj/ChameleonAppDelegate.m.o: ChameleonAppDelegate.m \
   /usr/local/include/GNUstep/CoreGraphics/CGBase.h \
   /usr/local/include/GNUstep/CoreFoundation/CoreFoundation.h \
   /usr/local/include/GNUstep/CoreFoundation/CFBase.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFArray.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFAttributedString.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFBag.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFBinaryHeap.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFBitVector.h \
   /usr/local/include/GNUstep/CoreFoundation/CFBundle.h \
   /usr/local/include/GNUstep/CoreFoundation/CFURL.h \
-  /usr/local/include/GNUstep/CoreFoundation/CFArray.h \
   /usr/local/include/GNUstep/CoreFoundation/CFDictionary.h \
   /usr/local/include/GNUstep/CoreFoundation/CFError.h \
   /usr/local/include/GNUstep/CoreFoundation/CFString.h \
   /usr/local/include/GNUstep/CoreFoundation/CFCharacterSet.h \
   /usr/local/include/GNUstep/CoreFoundation/CFData.h \
   /usr/local/include/GNUstep/CoreFoundation/CFLocale.h \
-  /usr/local/include/GNUstep/CoreFoundation/CFAttributedString.h \
   /usr/local/include/GNUstep/CoreFoundation/CFByteOrder.h \
   /usr/local/include/GNUstep/CoreFoundation/CFCalendar.h \
   /usr/local/include/GNUstep/CoreFoundation/CFDate.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFDateFormatter.h \
   /usr/local/include/GNUstep/CoreFoundation/CFNumber.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFNumberFormatter.h \
   /usr/local/include/GNUstep/CoreFoundation/CFPropertyList.h \
   /usr/local/include/GNUstep/CoreFoundation/CFStream.h \
-  /usr/local/include/GNUstep/CoreFoundation/CFSet.h \
   /usr/local/include/GNUstep/CoreFoundation/CFRunLoop.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFSet.h \
   /usr/local/include/GNUstep/CoreFoundation/CFStringEncodingExt.h \
   /usr/local/include/GNUstep/CoreFoundation/CFTimeZone.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFTree.h \
   /usr/local/include/GNUstep/CoreFoundation/CFUUID.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFXMLNode.h \
+  /usr/local/include/GNUstep/CoreFoundation/CFXMLParser.h \
   /usr/local/include/GNUstep/CoreGraphics/CGAffineTransform.h \
   /usr/local/include/GNUstep/CoreGraphics/CGGeometry.h \
   /usr/local/include/GNUstep/CoreGraphics/CGBitmapContext.h \
@@ -437,6 +437,8 @@ obj/BigApple.obj/ChameleonAppDelegate.m.o: ChameleonAppDelegate.m \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
   /usr/local/include/GNUstep/AppKit/DPSOperators.h \
+  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
+  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h \
   /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h \
   /usr/local/include/GNUstep/CoreData/CoreData.h \
   /usr/local/include/GNUstep/CoreData/CoreDataErrors.h \
@@ -464,18 +466,6 @@ ChameleonAppDelegate.h:
 
 /usr/local/include/GNUstep/GNUstepBase/GSConfig.h:
 
-/usr/local/include/GNUstep/objc/blocks_runtime.h:
-
-/usr/local/include/GNUstep/objc/Availability.h:
-
-/usr/local/include/GNUstep/objc/objc.h:
-
-/usr/local/include/GNUstep/objc/runtime.h:
-
-/usr/local/include/GNUstep/objc/slot.h:
-
-/usr/local/include/GNUstep/objc/runtime-deprecated.h:
-
 /usr/local/include/GNUstep/Foundation/FoundationErrors.h:
 
 /usr/local/include/GNUstep/Foundation/NSObject.h:
@@ -483,10 +473,6 @@ ChameleonAppDelegate.h:
 /usr/local/include/GNUstep/Foundation/NSObjCRuntime.h:
 
 /usr/local/include/GNUstep/GNUstepBase/GSObjCRuntime.h:
-
-/usr/local/include/GNUstep/objc/objc-api.h:
-
-/usr/local/include/GNUstep/objc/encoding.h:
 
 /usr/local/include/GNUstep/Foundation/NSZone.h:
 
@@ -752,11 +738,19 @@ ChameleonAppDelegate.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFBase.h:
 
+/usr/local/include/GNUstep/CoreFoundation/CFArray.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFAttributedString.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFBag.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFBinaryHeap.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFBitVector.h:
+
 /usr/local/include/GNUstep/CoreFoundation/CFBundle.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFURL.h:
-
-/usr/local/include/GNUstep/CoreFoundation/CFArray.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFDictionary.h:
 
@@ -770,29 +764,37 @@ ChameleonAppDelegate.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFLocale.h:
 
-/usr/local/include/GNUstep/CoreFoundation/CFAttributedString.h:
-
 /usr/local/include/GNUstep/CoreFoundation/CFByteOrder.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFCalendar.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFDate.h:
 
+/usr/local/include/GNUstep/CoreFoundation/CFDateFormatter.h:
+
 /usr/local/include/GNUstep/CoreFoundation/CFNumber.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFNumberFormatter.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFPropertyList.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFStream.h:
 
-/usr/local/include/GNUstep/CoreFoundation/CFSet.h:
-
 /usr/local/include/GNUstep/CoreFoundation/CFRunLoop.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFSet.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFStringEncodingExt.h:
 
 /usr/local/include/GNUstep/CoreFoundation/CFTimeZone.h:
 
+/usr/local/include/GNUstep/CoreFoundation/CFTree.h:
+
 /usr/local/include/GNUstep/CoreFoundation/CFUUID.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFXMLNode.h:
+
+/usr/local/include/GNUstep/CoreFoundation/CFXMLParser.h:
 
 /usr/local/include/GNUstep/CoreGraphics/CGAffineTransform.h:
 
@@ -1329,6 +1331,10 @@ ChameleonAppDelegate.h:
 /usr/local/include/GNUstep/AppKit/PSOperators.h:
 
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
+
+/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
+
+/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
 
 /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h:
 

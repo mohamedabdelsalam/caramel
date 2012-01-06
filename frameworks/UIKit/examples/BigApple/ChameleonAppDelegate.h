@@ -28,6 +28,7 @@
  */
 
 #import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 //@class UIWindow, UIImageView, UIButton;
 

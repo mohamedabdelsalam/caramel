@@ -41,6 +41,8 @@ UIKit
 
 - Install UIKit by running:
 
+	caramel/frameworks/UIKit$ useclang
+	caramel/frameworks/UIKit$ make clean
 	caramel/frameworks/UIKit$ make
 	caramel/frameworks/UIKit$ sudo make install
 
@@ -75,5 +77,5 @@ fatal error: 'objc/blocks_runtime.h'
 ~/develop/gnustep/core/base/Headers/ObjectiveC2/Availability.h
 ~/develop/gnustep/dev-libs/libobjc2/objc/Availability.h
 
-	$ sudo cp ~/develop/gnustep/core/base/Headers/ObjectiveC2/Availability.h /usr/local/include/objc
+	$ sudo cp -r ~/develop/gnustep/core/base/Headers/ObjectiveC2 /usr/local/include
 

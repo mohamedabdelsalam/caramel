@@ -3,18 +3,10 @@ obj/BigApple.obj/main.m.o: main.m \
   /usr/local/include/GNUstep/Foundation/Foundation.h \
   /usr/local/include/GNUstep/GNUstepBase/GSVersionMacros.h \
   /usr/local/include/GNUstep/GNUstepBase/GSConfig.h \
-  /usr/local/include/GNUstep/objc/blocks_runtime.h \
-  /usr/local/include/GNUstep/objc/Availability.h \
-  /usr/local/include/GNUstep/objc/objc.h \
-  /usr/local/include/GNUstep/objc/runtime.h \
-  /usr/local/include/GNUstep/objc/slot.h \
-  /usr/local/include/GNUstep/objc/runtime-deprecated.h \
   /usr/local/include/GNUstep/Foundation/FoundationErrors.h \
   /usr/local/include/GNUstep/Foundation/NSObject.h \
   /usr/local/include/GNUstep/Foundation/NSObjCRuntime.h \
   /usr/local/include/GNUstep/GNUstepBase/GSObjCRuntime.h \
-  /usr/local/include/GNUstep/objc/objc-api.h \
-  /usr/local/include/GNUstep/objc/encoding.h \
   /usr/local/include/GNUstep/Foundation/NSZone.h \
   /usr/local/include/GNUstep/GNUstepBase/GNUstep.h \
   /usr/local/include/GNUstep/Foundation/NSDate.h \
@@ -297,18 +289,6 @@ obj/BigApple.obj/main.m.o: main.m \
 
 /usr/local/include/GNUstep/GNUstepBase/GSConfig.h:
 
-/usr/local/include/GNUstep/objc/blocks_runtime.h:
-
-/usr/local/include/GNUstep/objc/Availability.h:
-
-/usr/local/include/GNUstep/objc/objc.h:
-
-/usr/local/include/GNUstep/objc/runtime.h:
-
-/usr/local/include/GNUstep/objc/slot.h:
-
-/usr/local/include/GNUstep/objc/runtime-deprecated.h:
-
 /usr/local/include/GNUstep/Foundation/FoundationErrors.h:
 
 /usr/local/include/GNUstep/Foundation/NSObject.h:
@@ -316,10 +296,6 @@ obj/BigApple.obj/main.m.o: main.m \
 /usr/local/include/GNUstep/Foundation/NSObjCRuntime.h:
 
 /usr/local/include/GNUstep/GNUstepBase/GSObjCRuntime.h:
-
-/usr/local/include/GNUstep/objc/objc-api.h:
-
-/usr/local/include/GNUstep/objc/encoding.h:
 
 /usr/local/include/GNUstep/Foundation/NSZone.h:
 
