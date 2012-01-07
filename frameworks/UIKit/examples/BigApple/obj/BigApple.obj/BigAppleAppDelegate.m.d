@@ -441,8 +441,7 @@ obj/BigApple.obj/BigAppleAppDelegate.m.o: BigAppleAppDelegate.m \
   /usr/local/include/GNUstep/UIKit/UINSCellControl.h \
   /usr/local/include/GNUstep/UIKit/CALayer+UIKitCompatibility.h \
   /usr/local/include/GNUstep/QuartzCore/CALayer.h \
-  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
-  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h \
+  /usr/local/include/GNUstep/QuartzCore/CABase.h \
   /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h \
   /usr/local/include/GNUstep/CoreData/CoreData.h \
   /usr/local/include/GNUstep/CoreData/CoreDataErrors.h \
@@ -1346,9 +1345,7 @@ ChameleonAppDelegate.h:
 
 /usr/local/include/GNUstep/QuartzCore/CALayer.h:
 
-/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
-
-/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
+/usr/local/include/GNUstep/QuartzCore/CABase.h:
 
 /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h:
 

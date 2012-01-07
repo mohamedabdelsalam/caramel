@@ -350,8 +350,7 @@ obj/libUIKit.obj/UIView.m.o: UIView.m UIView+UIPrivate.h UIView.h \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
   /usr/local/include/GNUstep/AppKit/DPSOperators.h \
-  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
-  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h
+  /usr/local/include/GNUstep/QuartzCore/CABase.h
 
 UIView+UIPrivate.h:
 
@@ -1091,6 +1090,4 @@ UIGestureRecognizer.h:
 
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
 
-/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
-
-/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
+/usr/local/include/GNUstep/QuartzCore/CABase.h:
