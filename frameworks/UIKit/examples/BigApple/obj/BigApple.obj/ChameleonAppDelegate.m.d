@@ -437,8 +437,7 @@ obj/BigApple.obj/ChameleonAppDelegate.m.o: ChameleonAppDelegate.m \
   /usr/local/include/GNUstep/AppKit/NSWindowController.h \
   /usr/local/include/GNUstep/AppKit/PSOperators.h \
   /usr/local/include/GNUstep/AppKit/DPSOperators.h \
-  /usr/local/include/GNUstep/QuartzCore/CAAnimation.h \
-  /usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h \
+  /usr/local/include/GNUstep/QuartzCore/CABase.h \
   /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h \
   /usr/local/include/GNUstep/CoreData/CoreData.h \
   /usr/local/include/GNUstep/CoreData/CoreDataErrors.h \
@@ -1332,9 +1331,7 @@ ChameleonAppDelegate.h:
 
 /usr/local/include/GNUstep/AppKit/DPSOperators.h:
 
-/usr/local/include/GNUstep/QuartzCore/CAAnimation.h:
-
-/usr/local/include/GNUstep/QuartzCore/CAMediaTiming.h:
+/usr/local/include/GNUstep/QuartzCore/CABase.h:
 
 /usr/local/include/GNUstep/UIKit/NSFetchedResultsController.h:
 
