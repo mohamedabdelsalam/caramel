@@ -31,6 +31,7 @@
 #import "UIWindow.h"
 #import "UIGraphics.h"
 #import "UIColor.h"
+#import "UIGeometry.h"
 #import "UIViewLayoutManager.h"
 #import "UIViewAnimationGroup.h"
 #import "UIViewBlockAnimationDelegate.h"

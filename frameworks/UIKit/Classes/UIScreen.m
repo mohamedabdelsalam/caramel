@@ -36,6 +36,7 @@
 #import <AppKit/AppKit.h>
 #import "UIViewLayoutManager.h"
 #import "UIColor.h"
+#import "UIGeometry.h"
 #import "UIScreenMode+UIPrivate.h"
 #import "UIWindow.h"
 #import "UIKitView.h"

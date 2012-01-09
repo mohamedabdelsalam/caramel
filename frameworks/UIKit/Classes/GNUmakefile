@@ -73,7 +73,6 @@ libUIKit_HEADER_FILES = \
 	UIScreenMode.h \
 	UIActionSheet.h \
 	UIAlertView.h \
-	UIControl.h \
 	UIButton.h \
 	UIBezierPath.h \
 	UIViewController.h \
@@ -127,6 +126,7 @@ libUIKit_HEADER_FILES = \
 	UINSCellControl.h \
 	CALayer+UIKitCompatibility.h \
 	NSFetchedResultsController.h \
+	UIRoundedRectButton.h \
 
 libUIKit_HEADER_FILES_INSTALL_DIR = UIKit
 libUIKit_OBJC_FILES = \
@@ -140,5 +140,12 @@ libUIKit_OBJC_FILES = \
 	UIScreen.m \
 	UIImageView.m \
 	UIColor.m \
+	UIGraphics.m \
+	UIGeometry.m \
+	UIScreenMode.m \
+	UIRoundedRectButton.m \
+	UIControl.m \
+	UIApplication.m \
 
 include $(GNUSTEP_MAKEFILES)/library.make
+
