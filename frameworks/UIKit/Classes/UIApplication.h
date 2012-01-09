@@ -31,26 +31,28 @@
 #import "UIDevice.h"
 #import "UIApplicationDelegate.h"
 #import <CoreGraphics/CoreGraphics.h>
+#import "NSEvent+UIKit.h"
+#import <Foundation/Foundation.h>
 
-NSString *const UIApplicationWillChangeStatusBarOrientationNotification;
-NSString *const UIApplicationDidChangeStatusBarOrientationNotification;
-NSString *const UIApplicationWillEnterForegroundNotification;
-NSString *const UIApplicationWillTerminateNotification;
-NSString *const UIApplicationWillResignActiveNotification;
-NSString *const UIApplicationDidEnterBackgroundNotification;
-NSString *const UIApplicationDidBecomeActiveNotification;
-NSString *const UIApplicationDidFinishLaunchingNotification;
+extern NSString *const UIApplicationWillChangeStatusBarOrientationNotification;
+extern NSString *const UIApplicationDidChangeStatusBarOrientationNotification;
+extern NSString *const UIApplicationWillEnterForegroundNotification;
+extern NSString *const UIApplicationWillTerminateNotification;
+extern NSString *const UIApplicationWillResignActiveNotification;
+extern NSString *const UIApplicationDidEnterBackgroundNotification;
+extern NSString *const UIApplicationDidBecomeActiveNotification;
+extern NSString *const UIApplicationDidFinishLaunchingNotification;
 
-NSString *const UIApplicationLaunchOptionsURLKey;
-NSString *const UIApplicationLaunchOptionsSourceApplicationKey;
-NSString *const UIApplicationLaunchOptionsRemoteNotificationKey;
-NSString *const UIApplicationLaunchOptionsAnnotationKey;
-NSString *const UIApplicationLaunchOptionsLocalNotificationKey;
-NSString *const UIApplicationLaunchOptionsLocationKey;
+extern NSString *const UIApplicationLaunchOptionsURLKey;
+extern NSString *const UIApplicationLaunchOptionsSourceApplicationKey;
+extern NSString *const UIApplicationLaunchOptionsRemoteNotificationKey;
+extern NSString *const UIApplicationLaunchOptionsAnnotationKey;
+extern NSString *const UIApplicationLaunchOptionsLocalNotificationKey;
+extern NSString *const UIApplicationLaunchOptionsLocationKey;
 
-NSString *const UIApplicationDidReceiveMemoryWarningNotification;
+extern NSString *const UIApplicationDidReceiveMemoryWarningNotification;
 
-NSString *const UITrackingRunLoopMode;
+extern NSString *const UITrackingRunLoopMode;
 
 typedef enum {
   UIStatusBarStyleDefault,
