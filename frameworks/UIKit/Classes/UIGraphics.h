@@ -30,11 +30,11 @@
 #import <ApplicationServices/ApplicationServices.h>
 
 @class UIImage;
-
+/*
 #ifdef __cplusplus
 extern "C" {
 #endif
-
+*/
 void UIGraphicsPushContext(CGContextRef ctx);
 void UIGraphicsPopContext(void);
 CGContextRef UIGraphicsGetCurrentContext(void);
@@ -51,7 +51,7 @@ void UIRectFillUsingBlendMode(CGRect rect, CGBlendMode blendMode);
 
 void UIRectFrame(CGRect rect);
 void UIRectFrameUsingBlendMode(CGRect rect, CGBlendMode blendMode);
-
+/*
 #ifdef __cplusplus
 }
-#endif
+#endif*/
