@@ -40,6 +40,8 @@
 #import "UIKey+UIPrivate.h"
 #import "UIBackgroundTask.h"
 #import <Cocoa/Cocoa.h>
+#import "NSEvent+UIKit.h"
+#import "NSRunLoop+UIKit.h"
 
 NSString *const UIApplicationWillChangeStatusBarOrientationNotification = @"UIApplicationWillChangeStatusBarOrientationNotification";
 NSString *const UIApplicationDidChangeStatusBarOrientationNotification = @"UIApplicationDidChangeStatusBarOrientationNotification";
