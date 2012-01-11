@@ -34,6 +34,8 @@ Installation
 
 - Choose "Fixed size storage" and not "Dynamically expanding storage"
 
+- You might want to put the size for the Hard disk to be 10 GB instead of the default 8 GB.
+
 - In order to be able to ssh from mac to Ubunut virtual machine:
 
 4.1 In VirtualBox goto from the menu VirtualBox > Preferences > Network, then click the icon to add a network.
