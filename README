@@ -28,7 +28,19 @@ Installation
 	export EDITOR=vim
 	export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
 
-4. Install gnustep from Linux Ubuntu:
+4. To run Ubuntu as a virtual machine inside Mac OSX:
+
+        http://www.tuaw.com/2009/09/07/how-to-set-up-ubuntu-linux-on-a-mac-its-easy-and-free/
+
+- Choose "Fixed size storage" and not "Dynamically expanding storage"
+
+- In order to be able to ssh from mac to Ubunut virtual machine:
+
+4.1 In VirtualBox goto from the menu VirtualBox > Preferences > Network, then click the icon to add a network.
+
+4.2 Click Settings > Network, click "Adapter 2" , choose Attached to: "Host-only Adapter", click Ok.
+
+5. Install gnustep from Linux Ubuntu:
 
         ~$ sudo aptitude -y install gnustep gnustep-devel
 
@@ -48,11 +60,11 @@ Installation
 	lrwxrwxrwx 1 root root   24 2011-08-29 05:46 libgnustep-gui.so.0.20 -> libgnustep-gui.so.0.20.0
 	-rw-r--r-- 1 root root 4.4M 2011-08-29 05:47 libgnustep-gui.so.0.20.0
 
-5. Compile and test caramel/examples. Follow instructions in:
+6. Compile and test caramel/examples. Follow instructions in:
 
 	examples/README
 
-6. Follow the step by step instructions for installation of GNUstep, Caramel, and Chameleon frameworks:
+7. Follow the step by step instructions for installation of GNUstep, Caramel, and Chameleon frameworks:
 
 	frameworks/README
 
