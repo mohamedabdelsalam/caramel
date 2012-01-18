@@ -127,6 +127,7 @@ libUIKit_HEADER_FILES = \
 	CALayer+UIKitCompatibility.h \
 	NSFetchedResultsController.h \
 	UIRoundedRectButton.h \
+	UIViewAnimationGroup.h \
 
 libUIKit_HEADER_FILES_INSTALL_DIR = UIKit
 libUIKit_OBJC_FILES = \
@@ -146,6 +147,7 @@ libUIKit_OBJC_FILES = \
 	UIRoundedRectButton.m \
 	UIControl.m \
 	UIApplication.m \
+	UIViewAnimationGroup.m \
 
 include $(GNUSTEP_MAKEFILES)/library.make
 
