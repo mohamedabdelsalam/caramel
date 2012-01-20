@@ -1,3 +1,4 @@
+
 Caramel
 =======
 
@@ -25,7 +26,6 @@ Installation
 - Add these lines at the end:
 
 	export EDITOR=vim
-	export GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
 
 4. To run Ubuntu as a virtual machine inside Mac OSX:
 

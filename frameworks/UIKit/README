@@ -10,9 +10,9 @@ Clang is a compiler to handle blocks and ObjectiveC 2.0
 
 2. Configure clang:
 
-	/usr/share/GNUstep/Makefiles$ cp config.make config.make.gcc
+	/usr/share/GNUstep/Makefiles$ sudo cp config.make config.make.gcc
 
-- edit /usr/share/GNUstep/Makefiles/config.make and comment CC = gcc and add CC = clang
+- edit /usr/share/GNUstep/Makefiles/config.make and comment CC = gcc and add the line CC = clang
 	
 	/usr/share/GNUstep/Makefiles$ cp config.make config.make.clang
 	/usr/share/GNUstep/Makefiles$ sudo chmod 777 config.make*
@@ -78,4 +78,13 @@ fatal error: 'objc/blocks_runtime.h'
 ~/develop/gnustep/dev-libs/libobjc2/objc/Availability.h
 
 	$ sudo cp -r ~/develop/gnustep/core/base/Headers/ObjectiveC2 /usr/local/include
+
+- if you get:
+
+~/develop/gnustep/core/base/Headers/ObjectiveC2/objc/Availability.h
+
+- Then:
+
+	/usr/local/include$ mkdir ObjectiveC2
+	/usr/local/include/ObjectiveC2$ sudo cp ~/develop/gnustep/core/base/Headers/ObjectiveC2/Availability.h .
 
