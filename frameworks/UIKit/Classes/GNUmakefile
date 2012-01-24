@@ -148,6 +148,10 @@ libUIKit_OBJC_FILES = \
 	UIControl.m \
 	UIApplication.m \
 	UIViewAnimationGroup.m \
+	UIEvent.m \
+	UILabel.m \
+	UITouch.m \
+	UIResponder.m \
 
 include $(GNUSTEP_MAKEFILES)/library.make
 

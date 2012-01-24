@@ -43,7 +43,7 @@
 #import "NSEvent+UIKit.h"
 #import "NSWorkspace+UIKit.h"
 #import "NSRunLoop+UIKit.h"
-#import <CoreGraphics/CoreGraphics.h>
+//#import <CoreGraphics/CoreGraphics.h>
 
 NSString *const UIApplicationWillChangeStatusBarOrientationNotification = @"UIApplicationWillChangeStatusBarOrientationNotification";
 NSString *const UIApplicationDidChangeStatusBarOrientationNotification = @"UIApplicationDidChangeStatusBarOrientationNotification";
