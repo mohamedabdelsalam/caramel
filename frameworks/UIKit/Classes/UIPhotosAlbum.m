@@ -30,6 +30,7 @@
 #import "UIPhotosAlbum.h"
 #import "UIImage.h"
 #import <AppKit/NSSavePanel.h>
+#import "NSData+UIKit.h"
 
 @implementation UIPhotosAlbum
 

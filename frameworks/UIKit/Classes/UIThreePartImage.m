@@ -31,6 +31,7 @@
 #import "AppKitIntegration.h"
 #import "UIGraphics.h"
 #import <AppKit/AppKit.h>
+#import "NSCell+UIKit.h"
 
 @implementation UIThreePartImage
 

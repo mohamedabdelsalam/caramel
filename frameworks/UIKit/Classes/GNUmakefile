@@ -42,6 +42,7 @@ libUIKit_HEADER_FILES = \
 	UIWindow.h \
 	NSView+UIKit.h \
 	NSImage+UIKit.h \
+	NSData+UIKit.h \
 	UIKitView.h \
 	UIApplicationDelegate.h \
 	NSApplication+UIKit.h \
@@ -136,6 +137,8 @@ libUIKit_HEADER_FILES = \
 	UIViewBlockAnimationDelegate.h \
 	UIBackgroundTask.h \
 	UINinePartImage.h \
+	UIAction.h \
+	NSCell+UIKit.h \
 
 libUIKit_HEADER_FILES_INSTALL_DIR = UIKit
 libUIKit_OBJC_FILES = \
@@ -170,6 +173,8 @@ libUIKit_OBJC_FILES = \
 	UIViewBlockAnimationDelegate.m \
 	UIBackgroundTask.m \
 	UINinePartImage.m \
+	UIAction.m \
+	NSCell+UIKit.m \
 
 include $(GNUSTEP_MAKEFILES)/library.make
 
