@@ -128,6 +128,14 @@ libUIKit_HEADER_FILES = \
 	NSFetchedResultsController.h \
 	UIRoundedRectButton.h \
 	UIViewAnimationGroup.h \
+	UIViewLayoutManager.h \
+	UIThreePartImage.h \
+	UIPhotosAlbum.h \
+	UIControlAction.h \
+	UIInputController.h \
+	UIViewBlockAnimationDelegate.h \
+	UIBackgroundTask.h \
+	UINinePartImage.h \
 
 libUIKit_HEADER_FILES_INSTALL_DIR = UIKit
 libUIKit_OBJC_FILES = \
@@ -152,6 +160,16 @@ libUIKit_OBJC_FILES = \
 	UILabel.m \
 	UITouch.m \
 	UIResponder.m \
+	UIKey.m \
+	UIFont.m \
+	UIViewLayoutManager.m \
+	UIThreePartImage.m \
+	UIPhotosAlbum.m \
+	UIControlAction.m \
+	UIInputController.m \
+	UIViewBlockAnimationDelegate.m \
+	UIBackgroundTask.m \
+	UINinePartImage.m \
 
 include $(GNUSTEP_MAKEFILES)/library.make
 
